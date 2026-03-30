@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Serviços", "02 - Serviços", "{25947F58-2F89-4FFF-97C6-5164F029559C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enquete.Servicos.Api", "02 - Serviços\Enquete.Servicos.Api\Enquete.Servicos.Api.csproj", "{D691979C-22D8-4FF3-97F2-200ABCB61F31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Aplicação", "03 - Aplicação", "{55689ACF-5563-40F8-884A-F8300A44FE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enquete.Aplicacao", "03 - Aplicação\Enquete.Aplicacao\Enquete.Aplicacao.csproj", "{5AE4E109-3820-4A1A-9BD7-C979A56CAE4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Domínio", "04 - Domínio", "{6685E5E2-9A88-4E03-B819-073A93DAE6AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enquete.Dominio", "04 - Domínio\Enquete.Dominio\Enquete.Dominio.csproj", "{A66DB2D7-26C9-467E-BD9B-6E378C8A091C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Infra", "05 - Infra", "{9E726205-F88D-4792-8651-51E836C0EC57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enquete.Infra.Data", "05 - Infra\Enquete.Infra.Data\Enquete.Infra.Data.csproj", "{18DF46B5-47F4-4CFF-B57E-8FA13D42EBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enquete.Infra.IoC", "05 - Infra\Enquete.Infra.IoC\Enquete.Infra.IoC.csproj", "{2FD7B79F-D67A-4565-8104-24437F1FAF50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Apresentação", "01 - Apresentação", "{F95C0898-C83C-4FFD-88C1-35A90BCEC8BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D691979C-22D8-4FF3-97F2-200ABCB61F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D691979C-22D8-4FF3-97F2-200ABCB61F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D691979C-22D8-4FF3-97F2-200ABCB61F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D691979C-22D8-4FF3-97F2-200ABCB61F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE4E109-3820-4A1A-9BD7-C979A56CAE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE4E109-3820-4A1A-9BD7-C979A56CAE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE4E109-3820-4A1A-9BD7-C979A56CAE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE4E109-3820-4A1A-9BD7-C979A56CAE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66DB2D7-26C9-467E-BD9B-6E378C8A091C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66DB2D7-26C9-467E-BD9B-6E378C8A091C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66DB2D7-26C9-467E-BD9B-6E378C8A091C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66DB2D7-26C9-467E-BD9B-6E378C8A091C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DF46B5-47F4-4CFF-B57E-8FA13D42EBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DF46B5-47F4-4CFF-B57E-8FA13D42EBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DF46B5-47F4-4CFF-B57E-8FA13D42EBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DF46B5-47F4-4CFF-B57E-8FA13D42EBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD7B79F-D67A-4565-8104-24437F1FAF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD7B79F-D67A-4565-8104-24437F1FAF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD7B79F-D67A-4565-8104-24437F1FAF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD7B79F-D67A-4565-8104-24437F1FAF50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D691979C-22D8-4FF3-97F2-200ABCB61F31} = {25947F58-2F89-4FFF-97C6-5164F029559C}
+		{5AE4E109-3820-4A1A-9BD7-C979A56CAE4F} = {55689ACF-5563-40F8-884A-F8300A44FE82}
+		{A66DB2D7-26C9-467E-BD9B-6E378C8A091C} = {6685E5E2-9A88-4E03-B819-073A93DAE6AD}
+		{18DF46B5-47F4-4CFF-B57E-8FA13D42EBE4} = {9E726205-F88D-4792-8651-51E836C0EC57}
+		{2FD7B79F-D67A-4565-8104-24437F1FAF50} = {9E726205-F88D-4792-8651-51E836C0EC57}
+	EndGlobalSection
+EndGlobal

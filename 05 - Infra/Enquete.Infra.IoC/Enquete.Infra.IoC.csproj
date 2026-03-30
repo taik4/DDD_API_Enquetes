@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\04 - Domínio\Enquete.Dominio\Enquete.Dominio.csproj" />
+    <ProjectReference Include="..\..\03 - Aplicação\Enquete.Aplicacao\Enquete.Aplicacao.csproj" />
+    <ProjectReference Include="..\Enquete.Infra.Data\Enquete.Infra.Data.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
